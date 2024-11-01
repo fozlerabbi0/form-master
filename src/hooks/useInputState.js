@@ -7,6 +7,7 @@ const useInputState = (defaultValue = null) => {
         setValue(e.target.value);
 
     }
+    hande
     // const HandleChange = e => {
     //     setValue(e.target.value);
 

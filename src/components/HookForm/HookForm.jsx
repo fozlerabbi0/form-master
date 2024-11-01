@@ -9,6 +9,8 @@ const HookForm = () => {
 
     const handleSubmit = e => {
         console.log('form data', emailState.value);
+        e.preventDefault();
+
         
         e.preventDefault();
     }
